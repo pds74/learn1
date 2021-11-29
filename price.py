@@ -7,7 +7,7 @@ def discounted(price, discount):
         price_with_discount = price - price*discount / 100
     print(price_with_discount)
 
-discounted(100, 50)
+discounted(1000, 50)
 discounted(100, 500)
-discounted(-100, 50)
+discounted(-100, 40)
 discounted(100, -50)
